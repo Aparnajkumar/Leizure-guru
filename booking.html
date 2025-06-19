@@ -28,7 +28,7 @@
         </style>
 </head>
 
-<body>
+<body >
 
     <!-- navbar -->
     <nav class="bg-teal-700 text-white">
@@ -96,117 +96,262 @@
     </nav>
     
 
-            <img src="./book2 (2).jpeg" alt="" class="w-full h-100">
-            <div class="justify-start -mt-96">
-                <h2 class=" md:text-5xl text-2xl text-white font-bold ms-10">Trip Details</h2>
+<div class="min-h-screen flex flex-col bg-sky-50">
+            <img src="./book2 (2).jpeg" alt="" class="w-full md:h-100 h-80">
+            <div class="justify-center md:py-10 py-3 ">
+                <h2 class=" md:text-5xl text-2xl text-yellow-600 font-bold md:ms-10 md:px-105 px-5 text-center">Travel
+                    Information Form
+                </h2>
+                <p class="md:px-95 px-5 md:text-center text-black font-medium">Please Provide Us With The Contact Information
+                    Below And
+                    We Will Arrange To
+                    Reserve Your Ticket.</p>
     
-            </div>
-
-        <!--  -->
-
-
-    <div class="w-full min-h-full mt-16 justify-center flex flex-col text-center  ">
-        <div class="w-full md: py-20 md:px-10  py-30   ">
-            <h1 class="md:text-5xl text-2xl text-black font-semibold  justify-items-center text-center ">Marvel at the
-                wonders of
-                Greece and cherish the ocean’s beauty."</h1>
-            <!-- <img src="./media/spring-family-of-three-outing-cartoon-characters_2725953.png!sw800" alt=""> -->
-        </div>
-        <div class="md:grid grid-cols-3 md:gap-4  bg-sky-200 flex flex-col">
-            <div class="   border border-sky-200 rounded-3xl">
-                <img src="./book2 (1).jpeg" class="h-150 w-full justify-center rounded-3xl min-h-full" alt="">
-
-            </div>
-
-
-
-
-
-
-
-
-            <div class="col-span-2 border border-sky-200 bg-sky-200 rounded-3xl ">
-
-
-                <form class="md:max-w-sm md:mx-auto">
-                    <div class="mb-5">
-                        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your name
-                        </label>
-                        <input type="name" id="name"
-                            class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
-                            placeholder="john" required />
-                    </div>
-                    <div class="mb-5">
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
-                            email</label>
-                        <input type="email" id="email"
-                            class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
-                            placeholder="john123@gmail.com" required />
-                    </div>
-                    <div class="mb-5">
-                        <label for="country"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Preffered
-                            Country</label>
-                        <input type="country" id="country"
-                            class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
-                            placeholder="Greece" required />
-                    </div>
-                    <div class="mb-5">
-                        <label for="adult" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Number
-                            of Adults
-                        </label>
-                        <input type="number" id="adult"
-                            class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
-                            required />
-                    </div>
-                    <div class="mb-5">
-                        <label for="child" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Number
-                            of Children
-                        </label>
-                        <input type="number" id="child"
-                            class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
-                            required />
-                    </div>
-                    <div class="mb-5">
-                        <label for="enquiry"
-                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Enquiry Subject</label>
-                        <input type="text" id="enquiry"
-                            class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light"
-                            placeholder="" required />
-                    </div>
-                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
-                        message</label>
-                    <textarea id="message" rows="4"
-                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Leave a comment..."></textarea>
-
-
-
-
-                    <div class="flex items-start mb-5">
-                        <div class="flex items-center h-5">
-                            <input id="terms" type="checkbox" value=""
-                                class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"
-                                required />
+    
+    
+                <form class="max-w-4xl mx-auto space-y-5 bg-white px-20 py-10 rounded-2xl md:mt-10 mt-5 mb-10">
+    
+                    <!-- Title and Contact Name -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+                        <div>
+                            <label for="title" class="block text-gray-700 font-semibold mb-1">Title</label>
+                            <select id="title"
+                                class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option>Please Select</option>
+                                <option>Mr</option>
+                                <option>Ms</option>
+                                <option>Mrs</option>
+                                <option>Dr</option>
+                            </select>
                         </div>
-                        <label for="terms" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree
-                            with the <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">terms and
-                                conditions</a></label>
+                        <div>
+                            <label class="block text-gray-700 font-semibold mb-1">Contact name</label>
+                            <div class="flex gap-3">
+                                <input type="text" placeholder="First Name"
+                                    class="w-1/2 border border-gray-300 rounded-md p-3" />
+                                <input type="text" placeholder="Last Name"
+                                    class="w-1/2 border border-gray-300 rounded-md p-3" />
+                            </div>
+                        </div>
                     </div>
-                    <button type="submit"
-                        class="text-white bg-emerald-700 hover:bg-emerald-800 m-5 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Book
-                        Now</button>
+    
+                    <!-- Birth Date and Organization Name -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="birthdate" class="block text-gray-700 font-semibold mb-1">Birth date</label>
+                            <input type="date" id="birthdate" class="w-full border border-gray-300 rounded-md p-3"
+                                placeholder="MM-DD-YYYY" />
+                            <p class="text-sm text-gray-500 mt-1">Date</p>
+                        </div>
+                        <div>
+                            <label for="nat" class="block text-gray-700 font-semibold mb-1">Nationality</label>
+                            <input type="text" id="nat" class="w-full border border-gray-300 rounded-md p-3" />
+                        </div>
+                    </div>
+    
+                    <!-- Email and Phone Number -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="email" class="block text-gray-700 font-semibold mb-1">E-mail</label>
+                            <input type="email" id="email" class="w-full border border-gray-300 rounded-md p-3"
+                                placeholder="ex: myname@example.com" />
+                            <p class="text-sm text-gray-500 mt-1">example@example.com</p>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-semibold mb-1">Phone number</label>
+                            <input type="tel" id="phone" class="w-full border border-gray-300 rounded-md p-3"
+                                placeholder="(000) 000-0000" />
+                        </div>
+                    </div>
+    
+                    <!-- Travel Details Header -->
+                    <div class=" bg-teal-700  text-white font-bold py-3 px-4 rounded">
+                        Travel Details
+                    </div>
+    
+                    <!-- Travel Details Section -->
+                    <div class="max-w-4xl mx-auto mt-8 space-y-6">
+    
+                        <!-- Departure Country -->
+                        <div>
+                            <label for="departure-country" class="block text-gray-700 font-semibold mb-1">Departure
+                                country</label>
+                            <select id="departure-country"
+                                class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option>Please Select</option>
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                                <option>Australia</option>
+                            </select>
+                        </div>
+    
+                        <!-- Destination Country -->
+                        <div>
+                            <label for="destination-country" class="block text-gray-700 font-semibold mb-1">Destination
+                                country</label>
+                            <select id="destination-country"
+                                class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option>Please Select</option>
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                                <option>Australia</option>
+                            </select>
+                        </div>
+    
+                        <!-- Departure Date & Time -->
+                        <div>
+                            <label class="block text-gray-700 font-semibold mb-1">Departure date & time</label>
+                            <div class="flex gap-3">
+                                <input type="date" class="w-1/2 border border-gray-300 rounded-md p-3" />
+                                <input type="time" class="w-1/4 border border-gray-300 rounded-md p-3" />
+                                <select class="w-1/4 border border-gray-300 rounded-md p-3">
+                                    <option>AM</option>
+                                    <option>PM</option>
+                                </select>
+                            </div>
+                            <div class="flex gap-3 mt-1 text-sm text-gray-500">
+                                <span class="w-1/2">Date</span>
+                                <span class="w-1/2">Hour Minutes</span>
+                            </div>
+                        </div>
+    
+                        <!-- Return Date & Time -->
+                        <div>
+                            <label class="block text-gray-700 font-semibold mb-1">Return date & time</label>
+                            <div class="flex gap-3">
+                                <input type="date" class="w-1/2 border border-gray-300 rounded-md p-3" />
+                                <input type="time" class="w-1/4 border border-gray-300 rounded-md p-3" />
+                                <select class="w-1/4 border border-gray-300 rounded-md p-3">
+                                    <option>AM</option>
+                                    <option>PM</option>
+                                </select>
+                            </div>
+                            <div class="flex gap-3 mt-1 text-sm text-gray-500">
+                                <span class="w-1/2">Date</span>
+                                <span class="w-1/2">Hour Minutes</span>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+    
+                    <!-- Class of Service and Services -->
+                    <div class="max-w-4xl mx-auto mt-8 space-y-6">
+    
+                        <!-- Class of Service -->
+                        <div>
+                            <label for="class-service" class="block text-gray-700 font-semibold mb-1">Class of
+                                service</label>
+                            <select id="class-service"
+                                class="w-full border border-gray-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option>Please Select</option>
+                                <option>Economy</option>
+                                <option>Business</option>
+                                <option>First Class</option>
+                            </select>
+                        </div>
+    
+                        <!-- Service Checkboxes -->
+                        <div>
+                            <label class="block text-gray-700 font-semibold mb-2">Please check the services that you
+                                need</label>
+                            <div class="space-y-2">
+                                <div class="flex items-center">
+                                    <input id="airline" type="checkbox"
+                                        class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" />
+                                    <label for="airline" class="ml-2 text-gray-700">Airline Tickets</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="rental" type="checkbox"
+                                        class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" />
+                                    <label for="rental" class="ml-2 text-gray-700">Rental Car</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input id="hotel" type="checkbox"
+                                        class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500" />
+                                    <label for="hotel" class="ml-2 text-gray-700">Hotel Accommodations</label>
+                                </div>
+                                <!-- Traveler's Details Section Continued -->
+                                <div class="max-w-4xl mx-auto mt-8 space-y-6">
+    
+                                    <!-- Section Header -->
+                                    <div class="bg-teal-700 text-white font-bold py-3 px-4 rounded">
+                                        Traveler's Details
+                                    </div>
+    
+                                    <!-- Hotel & Airline -->
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <div>
+                                            <label for="hotel-brand"
+                                                class="block text-gray-700 font-semibold mb-1">Preferred hotel brand</label>
+                                            <input type="text" id="hotel-brand"
+                                                class="w-full border border-gray-300 rounded-md p-3" />
+                                        </div>
+                                        <div>
+                                            <label for="airline" class="block text-gray-700 font-semibold mb-1">Preferred
+                                                airline</label>
+                                            <input type="text" id="airline"
+                                                class="w-full border border-gray-300 rounded-md p-3" />
+                                        </div>
+                                    </div>
+    
+                                    <!-- Additional Information -->
+                                    <div>
+                                        <label for="additional-info"
+                                            class="block text-gray-700 font-semibold mb-1 mt-4">Additional
+                                            information</label>
+                                        <textarea id="additional-info" rows="5"
+                                            class="w-full border border-gray-300 rounded-md p-3"></textarea>
+                                    </div>
+    
+                                    <!-- Submit Button -->
+                                    <div class="flex justify-center">
+                                        <button type="submit"
+                                            class="bg-teal-700 text-white font-semibold py-2 px-6 rounded hover:bg-teal-300 transition">
+                                            Submit Form
+                                        </button>
+                                    </div>
+    
+                                </div>
+                               
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
                 </form>
+</div>
 
-
-
-
-
-
-            </div>
 
         </div>
+        
+
     </div>
+    
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
     <!--footer  -->
 
     <footer class=" container-fluid bg-teal-700 p-5 ">
