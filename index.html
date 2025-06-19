@@ -129,7 +129,7 @@
   <div class="sm:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pt-2 pb-3">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-      <a href="index.html" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Home</a>
+      <a href="index.html" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white hover:bg-gray-700 hover:text-white">Home</a>
       <a href="about.html" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Us</a>
       <a href="Destination.html" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Destination</a>
       <a href="packages.html" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Packages</a>
@@ -141,7 +141,7 @@
 
 
 <!-- Hero section -->
-<div class=" bg-cover bg-center bg-fixed  h-screen" style="background-image: url(./pexels-te-lensfix-380994-1371360.jpg); ">            <div class="absolute inset-0 bg-black opacity-40 mt-16 h-151" ></div>
+<div class=" bg-cover bg-center bg-fixed  h-screen" style="background-image: url(./pexels-te-lensfix-380994-1371360.jpg); ">            <div class="absolute inset-0 lg:bg-black md:opacity-40 md:mt-16 md:h-151" ></div>
 
   <div class="text-white text-center z-10 " >
     <p id="imgtext"  class="bounce-in text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center flex items-center justify-center ">PLAN YOUR VACATION WITH US</p>
@@ -210,30 +210,32 @@
 </div>
 
 <!-- Recommended destinations -->
-<div  class="container-fluid bg-sky-50 text-gray-700 flex flex-col">
+<div  class="container-fluid bg-sky-50 shadow-lg text-gray-700 flex flex-col">
 <h3 class="text-3xl text-center mt-10 mb-5">Recommended Destinations of the Month</h3>
-<div id="recdes1" class="md:grid grid-cols-4 md:px-20 px-10 text-center">
+<div class="bg-sky-100">
+  <div id="recdes1" class="md:grid grid-cols-4 md:px-20 px-10 text-center">
+    <div class="md:p-8 p-3">
+    <img src="https://s7ap1.scene7.com/is/image/incredibleindia/2-summer-capital-of-India-darjeeling-west-bengal-city-ff?qlt=82&ts=1726643695016" alt="Darjeeling" class="w-full h-76 rounded-full">
+    <p>Darjeeling</p>
+  </div>
+  <div id="recdes2" class="md:p-8 p-3">
+    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/13/86/af/8e.jpg" alt="Jaipur" class="w-full h-76 rounded-full ">
+    
+    <p>Jaipur</p>
+  </div>
   <div class="md:p-8 p-3">
-  <img src="https://s7ap1.scene7.com/is/image/incredibleindia/2-summer-capital-of-India-darjeeling-west-bengal-city-ff?qlt=82&ts=1726643695016" alt="Darjeeling" class="w-full h-76 rounded-full">
-  <p>Darjeeling</p>
-</div>
-<div id="recdes2" class="md:p-8 p-3">
-  <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/13/86/af/8e.jpg" alt="Jaipur" class="w-full h-76 rounded-full ">
-  
-  <p>Jaipur</p>
-</div>
-<div class="md:p-8 p-3">
-  <img src="https://img.onmanorama.com/content/dam/mm/en/travel/outside-kerala/images/2024/8/18/shimla.jpg?crop=fc&w=575&h=575" alt="Shimla" class="w-full h-76 rounded-full">
-  <p>Shimla</p>
-</div>
-<div class="md:p-8 p-3">
-  <img src="https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FCoorg_in_May_ca0b241471.webp&w=3840&q=50&dpl=dpl_7HvPJWoY9u7cHeCsdpebdXWmMzNn" alt="coorg" class="w-full h-76 rounded-full">
-  <p>Coorg</p>
-</div>
-</div>
-<div class="text-center mb-10">
-  <a href="booking.html" class=" btn bg-emerald-500 hover:bg-emerald-600 py-4 px-6 text-white rounded-lg ">Book Now</a>
-  
+    <img src="https://img.onmanorama.com/content/dam/mm/en/travel/outside-kerala/images/2024/8/18/shimla.jpg?crop=fc&w=575&h=575" alt="Shimla" class="w-full h-76 rounded-full">
+    <p>Shimla</p>
+  </div>
+  <div class="md:p-8 p-3">
+    <img src="https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FCoorg_in_May_ca0b241471.webp&w=3840&q=50&dpl=dpl_7HvPJWoY9u7cHeCsdpebdXWmMzNn" alt="coorg" class="w-full h-76 rounded-full">
+    <p>Coorg</p>
+  </div>
+  </div>
+  <div class="text-center mb-10">
+    <a href="booking.html" class=" btn bg-emerald-500 hover:bg-emerald-600 py-4 px-6 text-white rounded-lg ">Book Now</a>
+    
+  </div>
 </div>
 </div>
 
@@ -242,13 +244,13 @@
   <h3 class="text-3xl text-center mt-15"> Blog</h3>
 
   <div class="md:grid grid-cols-3 p-5">
-<div id="blog"  class="inset-shadow-sm inset-shadow-emerald-500 p-3">
+<div id="blog"  class="shadow-sm shadow-emerald-500 p-3">
 <img class="blogimg1" src="./pexels-pixabay-415708.jpg" alt="">
 <b>Thailand-culture</b>
 <p class="text-sm">Thailand's very rich and very lively culture. Buddhism has a deeply profound effect on its culture and it is from it that comes a fanaticism of excess respect, humility, and fraternity. The nation is studded with stunning temples, one more stunning than the other.</p>
 <a href="blog.html" class="text-black">Read more</a>
 </div>
-<div class="inset-shadow-sm inset-shadow-emerald-500 p-3">
+<div class="shadow-sm shadow-emerald-500 p-3">
   <img class="blogimg2" src="./pexels-freestockpro-2166553.jpg.crdownload" alt="">
   <b>Beaches in Bali</b>
   <p class="text-sm">
@@ -257,7 +259,7 @@ Renowned around the world as the "Island of the Gods," Bali boasts of beautiful 
 </p>
 <a href= "blog.html" class="text-black">Read more</a>
 </div>
-<div class="inset-shadow-sm inset-shadow-emerald-500 p-3">
+<div class="shadow-sm shadow-emerald-500 p-3">
   <img class="blogimg3" src="./pexels-sincegameon-22742021.jpg" class="" alt="">
   <b class="text-center">Rameswaram Sightseeing</b>
   <p class="text-sm">Rameswaram is steeped in mythological and historical significance.  The island is also home to one of the twelve Jyotirlingas, making it a sacred site for Shaivites. Pilgrims, spiritual seekers, architecture enthusiasts, and beach lovers all find something unique here.
